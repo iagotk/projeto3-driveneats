@@ -3,9 +3,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-body div{
 
-}
 button {
     border: inherit;
 }
@@ -18,7 +16,7 @@ button {
     position: fixed;
     top: 0;
     left: 0;
-    box-shadow;: 0px 4px 4px rgba(0,0,0,0.3)
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.3)
 }
 .titulo{
     font-family: 'Righteous';
@@ -238,6 +236,8 @@ color: #000000;
     bottom: 0;
     right: 0;
   }  
+
+  
 .botaocinza {
     display: flex;
     justify-content: center;
@@ -252,6 +252,21 @@ bottom: 16px;
 background: #CBCBCB;
 border-radius: 50px;
 
+}
+.botaoConfirmar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 25px;
+    width: 364px;
+height: 61px;
+left: 25px;
+bottom: 16px;
+
+background: #32B72F;
+border-radius: 50px;
+display: none;
 }
 .h4 {
 
